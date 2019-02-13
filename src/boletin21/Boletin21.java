@@ -6,13 +6,13 @@ import javax.swing.JOptionPane;
 import libreria.*;
 
 public class Boletin21 {
-    
+
     public static void main(String[] args) {
         ArrayList<Libro> lista = new ArrayList<>();
         Metodos obx = new Metodos();
-        
+
         int opcion;
-        
+
         do {
             opcion = Integer.parseInt(JOptionPane.showInputDialog(""
                     + "**********MENÚ**********\n"
@@ -22,7 +22,7 @@ public class Boletin21 {
                     + "3.- Mostrar libros disponibles\n"
                     + "4.- Dar de baja libros no disponibles\n"
                     + "5.- Buscar un libro determinado"));
-            
+
             try {
                 switch (opcion) {
                     case 1:
